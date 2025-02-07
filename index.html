@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rehan's Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Rehan's Fashion Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <input type="text" id="search" placeholder="Search for products...">
+        <button class="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</button>
+    </header>
+
+    <section class="product-container">
+        <div class="product" data-name="Men's Jacket" data-price="89.99">
+            <img src="jacket.jpg" alt="Men's Jacket">
+            <h2>Men's Jacket</h2>
+            <p>$89.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="product" data-name="Women's Dress" data-price="69.99">
+            <img src="dress.jpg" alt="Women's Dress">
+            <h2>Women's Dress</h2>
+            <p>$69.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        
+        <div class="product" data-name="Sneakers" data-price="99.99">
+            <img src="sneakers.jpg" alt="Sneakers">
+            <h2>Stylish Sneakers</h2>
+            <p>$99.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Rehan's Fashion Store | Designed with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
